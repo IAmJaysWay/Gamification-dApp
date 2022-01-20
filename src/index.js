@@ -4,7 +4,7 @@ import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import "./index.css";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-import QuickStart from "components/QuickStart";
+import Gamify from "components/Gamify";
 
 /** Get your free Moralis Account https://moralis.io/ */
 
@@ -27,7 +27,7 @@ const Application = () => {
   else {
     return (
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <QuickStart />
+        <Gamify />
       </div>
     );
   }

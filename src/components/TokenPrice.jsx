@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { useTokenPrice } from "react-moralis";
+import { FireFilled } from "@ant-design/icons";
 
 const styles = {
   token: {
@@ -13,20 +12,14 @@ const styles = {
     whiteSpace: "nowrap",
   },
 };
-function TokenPrice(props) {
-  const { data: formattedData } = useTokenPrice(props);
+function TokenPrice() {
 
-  const [isUSDMode, setIsUSDMode] = useState(true);
-
-  const toggleDisplayStyle = () => setIsUSDMode(!isUSDMode);
-
-  const noLogoToken = "https://etherscan.io/images/main/empty-token.png";
 
   return (
     <div style={styles.token}>
-      <img src={props.image || noLogoToken} alt="logo" style={{ height: props?.size || "35px" }} />
-      <span style={{ cursor: "pointer" }} onClick={toggleDisplayStyle} title={`Show in ${isUSDMode ? "ETH" : "USD"}`}>
-        {formattedData && (isUSDMode ? formattedData.formattedUsd : formattedData.formattedNative)}
+      <FireFilled />
+      <span >
+        Runes
       </span>
     </div>
   );

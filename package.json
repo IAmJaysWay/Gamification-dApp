@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.4.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@walletconnect/web3-provider": "^1.6.6",
     "antd": "^4.16.13",
+    "craco-less": "^2.0.0",
+    "moment": "^2.29.1",
+    "moment-countdown": "^0.0.3",
     "moralis": "^0.0.176",
     "react": "^17.0.2",
     "react-blockies": "^1.4.1",
@@ -20,8 +24,8 @@
     "yarn": "^1.22.17"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "devchain": "node Truffle/scripts/devChain.js",

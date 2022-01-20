@@ -17,7 +17,7 @@ const styles = {
     alignItems: "center",
     width: "fit-content",
     borderRadius: "12px",
-    backgroundColor: "rgb(244, 244, 244)",
+    border: "solid 2px white",
     cursor: "pointer",
   },
   text: {
