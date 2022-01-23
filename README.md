@@ -11,7 +11,7 @@ This boilerplate is built on [react-moralis](https://github.com/MoralisWeb3/reac
 
 # 🚀 Quick Start
 
-📄 Clone or fork `ethereum-boilerplate`:
+📄 Clone or fork `Gamification-dApp`:
 ```sh
 git clone https://github.com/IAmJaysWay/Gamification-dApp.git
 ```
