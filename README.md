@@ -2,7 +2,7 @@
 
 > A clone of CoinMarketCap Diamonds gamification model, built using Moralis and the Ethereum-Boilerplate
 
-![Preview](demo.gif)
+![Preview](dAppDemo.gif)
 
 🚀Ethereum-Boilerplate: https://ethereum-boilerplate.github.io/ethereum-boilerplate
 
