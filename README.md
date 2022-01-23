@@ -33,7 +33,7 @@ yarn start
 
 🧭 Watch a full tutorial of the gamification component being built here: https://youtu.be/hufjWlGDvRA
 
-
+![Preview](YTLink.jpg)
 
 
 
