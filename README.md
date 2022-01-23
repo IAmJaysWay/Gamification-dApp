@@ -29,7 +29,7 @@ REACT_APP_MORALIS_SERVER_URL = https://xxxxxx.grandmoralis.com:2053/server
 yarn start
 ```
 
-# 🧭 Watch a full tutorial of the gamification component being built here: https://youtu.be/hufjWlGDvRA
+🧭 Watch a full tutorial of the gamification component being built here: https://youtu.be/hufjWlGDvRA
 
 
 
